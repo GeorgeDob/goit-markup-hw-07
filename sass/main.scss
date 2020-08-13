@@ -1,3 +1,15 @@
 @import './utils/vars';
-@import './components/page-header';
-@import './components/logo';
+@import './base/body';
+@import './base/visually-hidden';
+@import './components/header/page-header';
+@import './components/header/logo';
+@import './components/main/section-hero';
+@import './components/main/section-features';
+@import './components/main/section-directions';
+@import './components/main/section-our-team';
+@import './components/main/section-clients';
+@import './components/main/modal';
+@import './components/footer/footer-main';
+@import './components/footer/footer-logo-contacts';
+@import './components/footer/footer-social';
+@import './components/footer/footer-subscribe-block';
