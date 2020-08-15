@@ -1,6 +1,6 @@
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -82,7 +82,7 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--title-color);
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -740,6 +740,10 @@ body {
 
 .portfolio-list .link {
   display: inline-block;
+}
+
+.portfolio-list .img {
+  display: block;
 }
 
 .portfolio-thumb {
