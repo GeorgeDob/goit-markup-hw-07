@@ -1,14 +1,28 @@
+// Общие стили
 @import './utils/vars';
 @import './base/body';
 @import './base/visually-hidden';
+@import './base/section-container';
+
+// Шапка
 @import './components/header/page-header';
 @import './components/header/logo';
-@import './components/main/section-hero';
-@import './components/main/section-features';
-@import './components/main/section-directions';
-@import './components/main/section-our-team';
-@import './components/main/section-clients';
-@import './components/main/modal';
+
+// Index.html
+@import './components/index-main/section-features';
+@import './components/index-main/section-hero';
+@import './components/index-main/section-directions';
+@import './components/index-main/section-our-team';
+@import './components/index-main/section-clients';
+
+// Модальное окно
+@import './components/index-main/modal';
+
+// Portfolio.html
+@import './components/portfolio-main/portfolio-filters';
+@import './components/portfolio-main/portfolio-list';
+
+// Футер
 @import './components/footer/footer-main';
 @import './components/footer/footer-logo-contacts';
 @import './components/footer/footer-social';

@@ -484,10 +484,6 @@ body {
   flex-wrap: wrap;
 }
 
-.portfolio .title {
-  margin: 0;
-}
-
 .portfolio-list-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
