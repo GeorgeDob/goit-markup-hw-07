@@ -46,9 +46,15 @@
   text-align: center;
 }
 
+// Социальные сети
+
 .team-social {
   display: flex;
   padding: 0px 32px 24px;
+
+  &-item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .team-link {
@@ -56,7 +62,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin-right: 10px;
   width: 44px;
   height: 44px;
   color: $social-icon-color;
